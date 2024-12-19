@@ -1,0 +1,70 @@
+#iconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+}
+
+
+.card {
+    display: none;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid #ddd;
+  
+    color: black;
+    width: 200px;
+    margin-left: 40%;
+    
+}
+
+
+/* Estilo para los contadores */
+.contador {
+    font-size: 18px;
+    margin: 5px;
+}
+
+.contadores{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-estados {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+
+
+
+#escritorio1{
+    width: 200px;
+    height: 200px;
+    background-color: #8B4513; /* Marrón */
+    margin: 10px;
+}
+
+
+#escritorio2{
+    width: 200px;
+    height: 200px;
+    background-color: gray; /* Marrón */
+    margin: 10px;
+}
+ 
+.mesas{
+    display: flex;
+    justify-content: center;
+}
