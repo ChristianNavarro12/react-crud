@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 const axiosInstance = axios.create({
-    baseURL: 'https://api-crud-tawny.vercel.app', // Cambia la URL si es necesario
+    baseURL: 'https://api-student-omega.vercel.app', // Cambia la URL si es necesario
   });
 
 function ShowPc() {
